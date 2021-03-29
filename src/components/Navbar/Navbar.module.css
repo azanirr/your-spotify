@@ -1,0 +1,23 @@
+.Navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    z-index: 50;
+    background: #ffffff;
+    box-shadow:   0 6px 12px rgba(0,0,0,.1);
+}
+
+.Navbar div img{
+    height: 70px;
+    width: 70px;
+}
+
+.Navbar ul{
+    list-style-type: none;
+}

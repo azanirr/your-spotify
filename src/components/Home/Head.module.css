@@ -1,0 +1,123 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    width: 100%;
+    height: 100vh;
+}
+.Container a{
+  list-style-type: none;
+  text-decoration: none;
+}
+.carouselContainer {
+    /* max-width: 145rem;  */
+    margin: auto;
+  }
+.imgSlide {
+    position: absolute;
+    image-resolution: 100%;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    z-index: 2;
+  }
+.Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.MainGenerator{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 50px;
+  z-index: 10;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba(29, 30, 48, 0.37);
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 0px solid rgba( 255, 255, 255, 0.18 );
+}
+.Main h1, .MainGenerator h1{
+    color: white;
+    margin-top: 0;
+}
+.Main button, .MainGenerator button{
+    box-sizing: border-box;
+    padding: 16px 50px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    background: steelblue;
+    transition: all 0.3s ease 0s;
+}
+
+.Main button:hover , .MainGenerator button:hover{
+    transition: all 0.3s ease 0s;
+    background: skyblue;
+    
+}
+
+.carousel {
+    background: #f1ede4;
+    /* max-width: 145rem; */
+    margin: auto;
+    height: 700px;
+    position: relative;
+  }
+
+  
+.ellipse {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .pagination {
+    color: black;
+  }
+  
+  .paginationBullet {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background: #ffffff;
+    margin-right: 1rem;
+    display: inline-block;
+    transition: all 0.2s ease;
+  }
+  
+  .paginationBulletActive {
+    width: 4.2rem;
+    border-radius: 1rem;
+    background: #333;
+  }
+  
+  .paginationContainer {
+    text-align: left;
+    bottom: 0;
+    margin-bottom: 2.4rem;
+  }
+  
+  .containerbullet {
+    max-width: 144rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
