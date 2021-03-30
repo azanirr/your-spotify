@@ -32,7 +32,7 @@ function Head () {
                         <div className={styles.Main}>
                             <img src={spotifywhite} width="100px" height="100px"alt="logo white"></img>
                             <h1>Get Your Favorite Artists</h1> 
-                            <a href="http://localhost:8888/login">
+                            <a href="https://kimi-no-spotify-backend.herokuapp.com/login">
                                 <button>Connect</button>
                             </a>
                         </div>
